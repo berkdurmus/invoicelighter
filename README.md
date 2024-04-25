@@ -6,6 +6,8 @@
 ## Introduction
 Invoice Lighter is invoice approval workflow application. It includes both frontend and backend. Frontend is written in React + Vite + Typescript, Backend is written with Node + Typescript. Followed fully OOP structure in Typescript where we have factory pattern, classes, interfaces etc. 
 
+We did not hardcode the all conditions, instead created a config file called config.constant.ts under backend/src/config. We could define rules and steps inside the config file whenever we want to change the logic. 
+
 ## DB Schema
 **Entities and Their Attributes**
 
