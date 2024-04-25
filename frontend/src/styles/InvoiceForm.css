@@ -1,0 +1,48 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  outline: none; /* Removes the default blue outline */
+  border: 1px solid transparent; /* Default border color */
+  transition: border-color 0.3s; /* Smooth transition for border color change */
+  border-radius: 8px;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus {
+  border-color: #ff8d64aa;
+}
+
+button {
+margin-top: 20px;
+}
+
+select{
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  outline: none; /* Removes the default blue outline */
+  border: 1px solid transparent; /* Default border color */
+  transition: border-color 0.3s; /* Smooth transition for border color change */
+  border-radius: 8px;
+}
+
+select:focus {
+  border-color: #ff8d64aa;
+}
